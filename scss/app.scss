@@ -1,6 +1,21 @@
 @import "settings";
 @import "foundation";
 
+.weeks-img {
+	float: right;
+	max-width: 50%;
+	margin-left: rem-calc(30);
+	margin-bottom: rem-calc(16);
+
+	@media #{$small-only} {
+		display: block;
+		float: none;
+		margin: rem-calc(30) auto;
+		width: 80%;
+		max-width: rem-calc(9999);
+	}
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
